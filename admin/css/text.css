@@ -1,0 +1,138 @@
+/*
+	960 Grid System ~ Text CSS.
+	Learn more ~ http://960.gs/
+
+	Licensed under GPL and MIT.
+*/
+
+/* =Basic HTML
+--------------------------------------------------------------------------------*/
+
+body
+{
+	font: 13px/1.5 Tahoma, Helvetica, Arial, 'Liberation Sans', FreeSans, sans-serif;
+}
+
+a:focus
+{
+	outline: 1px dotted invert;
+}
+
+hr
+{
+	border-color: #ccc;
+	border-style: solid;
+	border-width: 1px 0 0;
+	clear: both;
+	height: 0;
+}
+
+/* =Headings
+--------------------------------------------------------------------------------*/
+
+h1
+{
+	font-size: 25px;
+}
+
+h2
+{
+	font-size: 23px;
+}
+
+h3
+{
+	font-size: 21px;
+}
+
+h4
+{
+	font-size: 19px;
+}
+
+h5
+{
+	font-size: 17px;
+}
+
+h6
+{
+	font-size: 15px;
+}
+
+/* =Spacing
+--------------------------------------------------------------------------------*/
+
+ol
+{
+	list-style: decimal;
+}
+
+ul
+{
+	list-style: square;
+}
+
+li
+{
+	margin-left: 30px;
+}
+
+p,
+dl,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+pre,
+table,
+address,
+fieldset
+{
+	margin-bottom: 20px;
+}
+.tblone {
+  border: 1px solid #fff;
+  margin-bottom: 12px;
+  width: 100%;
+}
+.tblone th {
+  background: #666 none repeat scroll 0 0;
+  color: #fff;
+  font-size: 20px;
+  padding: 5px 8px;
+  text-align: center;
+}
+.tblone td{padding:10px;text-align:center;}
+
+table.tblone tr:nth-child(2n+1){background:#fff;height:30px;}
+table.tblone tr:nth-child(2n){background:#fdf0f1;height:30px;}
+table.tblone input[type="number"] {
+  border: 1px solid #ddd;
+  padding: 2px;
+  width: 60px;
+}
+table.tblone input[type="submit"] {
+  background: #333 none repeat scroll 0 0;
+  border: 1px solid #000;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 1px 5px;
+}
+table.tblone a {
+  color: #fe5800;
+  font-weight: bold;
+  text-decoration: none;
+}
+table.tblone a:hover{color: #000;}
+table.tblone img {
+  height: 20px;
+  width: 30px;
+}
